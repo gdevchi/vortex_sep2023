@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width:calc(100% - 40px);
+  padding:10px 20px;
+}
+header > span {
+  color: orangered;
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.conference {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin: auto;
+  border-radius: 6px;
+  display: flex;
+  color: #333;
+  border: 1px solid #eee;
+}

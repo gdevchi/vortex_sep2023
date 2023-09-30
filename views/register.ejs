@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link href="/public/css/index.css" rel="stylesheet" />
+    <title>Voice Conference | Regiter</title>
+  </head>
+  <body>
+    <form class="form">
+      <p style="text-align: center">
+        Please complete your registeration details
+      </p>
+      <input
+        name="firstName"
+        placeholder="Enter Firstname"
+        value="<%=account.firstName || ''%>"
+        required
+      />
+      <input
+        name="lastName"
+        placeholder="Enter Lastname"
+        value="<%=account.lastName || ''%>"
+        required
+      />
+      <button>Register</button>
+    </form>
+  </body>
+  <script src="/public/js/register.js"></script>
+</html>
